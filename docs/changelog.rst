@@ -2144,7 +2144,7 @@ v2.0.0 (2013-05-12)
 - Replacing `force_text` with `force_unicode`. #746. [Bernhard Vallant]
 - Using force_text for indexing message. [Bernhard Vallant]
 
-  verbose_name_plural may be a functional proxy object from ugettext_lazy,
+  verbose_name_plural may be a functional proxy object from gettext_lazy,
   it should be forced to be a string!
 - Support pyelasticsearch 0.4 change (closes #759) [Chris Adams]
 
